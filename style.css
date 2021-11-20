@@ -1,0 +1,128 @@
+body {
+	background-color: rgb(250, 243, 243);
+	font-family: Calibri;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(80, 109, 132);
+}
+
+a:hover {
+	color: rgb(80, 109, 132);
+}
+
+h1 {
+	color: rgb(218, 127, 143);
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	color: rgb(167, 187, 199);
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-family: Calibri;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-padding30 {
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	font-family: Calibri;
+	color: rgb(167, 187, 199);
+	font-weight: bold;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.card-padding10 {
+	background-color: white;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+#shadow {
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.9);
+  margin-top: -23px; 
+}
+
+#thankyou {
+	font-family: 'Birthstone Bounce', cursive;
+	color: rgb(218, 127, 143);
+	font-size: 30px;
+}
+
+#lucile {
+	font-family: 'Birthstone Bounce', cursive;
+	color: rgb(218, 127, 143);
+	font-size: 40px;
+	letter-spacing: 5px;
+	padding-inline-start:12px
+}
+
+.btn-blue {
+	background-color: rgb(80, 109, 132);
+	color: white;
+	border-radius: 4px;
+	padding: 5px 5px;
+	font-weight: lighter;
+}
+
+.btn-blue:hover {
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(225, 229, 234);
+}
+
+.list-inline i:hover {
+	color: rgb(218, 127, 143);
